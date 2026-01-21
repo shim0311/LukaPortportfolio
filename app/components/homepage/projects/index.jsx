@@ -13,6 +13,20 @@ const Projects = () => {
           </span>
           <span className="w-full h-[2px] bg-[#1a1443]"></span>
         </div>
+        <div className="mt-6 text-center">
+          <p className="text-gray-400 text-lg md:text-xl">
+            더 자세한 정보는{' '}
+            <a
+              href="https://drive.google.com/file/d/1S56tt1pzKPeMCvc8ik69vRA5b45tmI8W/view"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[#16f2b3] hover:text-pink-500 transition-colors duration-300 underline decoration-dotted underline-offset-4"
+            >
+              포트폴리오
+            </a>
+            를 참조해주세요
+          </p>
+        </div>
       </div>
 
       <div className="pt-24">
